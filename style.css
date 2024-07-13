@@ -1,0 +1,358 @@
+.container{
+    
+   background-image: url(./background.png);
+   background-size: cover;
+   
+   
+    
+    
+
+}
+
+.header{
+   
+    display: flex;
+    justify-content:space-around;
+}
+.brandname{
+    color: azure;
+}
+.navbar1{
+    display: flex;
+    gap: 30px;
+    
+}
+li{
+    list-style: none;
+}
+.navlinks{
+    text-decoration: none;
+    color: azure;
+}
+.quote{
+    text-align: center;
+    padding: 20px;
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    background-color: rgb(11, 163, 224);
+    color: azure;
+    border-radius: 8px;
+}
+.mid{
+    display: flex;
+    justify-content: space-evenly;
+}
+.rightform{
+    height: 600px;
+    width: 400px;
+    border: 2px solid black;
+    background-color: azure;
+    margin-left: 20px;
+    border-radius: 10px;
+    
+    
+}
+form{
+     margin-left: 40px;
+    margin-top: 50px; 
+}
+.bookform{
+    display: flex;
+    flex-direction: column
+    
+    
+}
+input{
+    width: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.booking{
+   text-align: center;
+
+}
+.appointment{
+  margin-left: 80px;
+  margin-top: 30px;
+  padding: 10px;
+  color: white;
+  background-color:rgb(11, 163, 224);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.left{
+    margin-left: 20px;
+    margin-top: 40vh;
+    font-size: 40px;
+    color: rgb(40, 237, 5);
+}
+.quote2{
+    margin-left: 80px;
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+    background-color:rgb(11, 163, 224);
+    border-radius: 10px;
+    cursor: pointer;
+    width: 200px;
+  }
+  .learnmore{
+    
+        margin-left: 20px;
+        margin-top: 10px;
+        padding: 10px;
+        color: white;
+        background-color:rgb(11, 163, 224);
+        border-radius: 10px;
+        cursor: pointer;
+        width: 200px;
+
+  }
+  button:hover{
+    background-color: rgb(222, 33, 20) ;
+    font-size: 20px;
+    transition: all 0.8s ease-in-out ;
+  .emergency{
+    
+    text-align: center;
+    background-color: rgb(41, 47, 45);
+    padding: 20px;
+  }
+  .listitem{
+    background-color: aliceblue;
+  }
+   }
+  a{
+    text-decoration: none;
+  }
+  .secondpage{
+    background-color:rgba(242, 247, 247, 0.725);
+    margin-top: 0px;
+    
+  }
+  .midheading{
+    text-align: center;
+    
+  }
+  .para2{
+    display: block;
+    text-align: center;
+  }
+  .card1{
+    border: 4px solid rgb(15, 209, 252);
+    width: 300px;
+    height: 350px;
+    background-color: rgb(237, 255, 255);
+    border-radius: 8px;
+  }
+  .emergency{
+    background-color: rgb(26, 185, 229);
+    margin-top: 0px;
+    text-align: center;
+    padding: 20px;
+    color: rgb(239, 243, 246);
+  }
+ .listitem{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ }
+ .learnlink{
+    color: rgb(14, 138, 255);
+    font-size: 20px;
+    
+ }
+ .items{
+    width: 160px;
+ }
+ .threecard{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+ }
+ .thirdheading{
+    text-align: center;
+    margin-top: 0px;
+ }
+ 
+ .para3{
+    text-align: center;
+ }
+ .checked{
+    color: rgb(241, 241, 72);
+    margin-left: 20px;
+    
+ }
+ .para4{
+    width: 200px;
+    margin-left: 20px;
+ }
+.rev{
+    background-color: rgb(26, 24, 24);
+    width: 300px;
+    border-radius: 8px;
+    color: aliceblue;
+}
+.user1{
+    opacity: 100%;
+    border-radius: 55%;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.review{
+    display: flex;
+    justify-content: space-evenly;
+}
+.thirdpage{
+    background-color: rgb(247, 252, 252);
+    
+}
+.notchecked{
+  color: white;
+  margin-left: 20px;
+}
+.faqhead{
+  text-align: center;
+}
+.parafaq{
+  text-align: center;
+
+}
+.parafaq2{
+  margin-left:35%;
+  margin-bottom: 20px;
+}
+
+.question{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 150px;
+ 
+}
+.fourth{
+  margin-top: 50px;
+  background-color: #eae4e4;
+}
+.arrow{
+  color: rgb(255, 1, 1);
+}
+
+.pricehead{
+  text-align: center;
+}
+.pricefirst{
+  
+  border: 2px solid rgb(69, 201, 253);
+  width: 300px;
+  height: 420px;
+  margin-left: 20px;
+}
+.free{
+  text-align: center;
+}
+.pricepara{
+  text-align: center;
+}
+.fee{
+  text-align: center;
+  color: rgb(13, 186, 255);
+  font-size: 30px;
+}
+.new{
+  margin-left: 2px;
+  font-size: 18px;
+  font: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+.tick{
+  margin-left: 30px;
+  color: rgb(9, 252, 21);
+  
+}
+.nottick{
+  margin-left: 30px;
+  color: rgb(250, 4, 0);
+  
+}
+.tryfree{
+  margin-top: 50px;
+  margin-left: 40px;
+  padding: 12px;
+  border-radius: 10px;
+  width: 200px;
+  background-color:rgb(18, 188, 255);
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: whitesmoke;
+  cursor: pointer;
+  
+  
+}
+.pricecard{
+  display: flex;
+  justify-content: space-evenly;
+}
+.pricefirst:hover{
+  background-color:rgb(21, 16, 16);
+  color: aliceblue;
+  zoom: 110%;
+  
+  transition: all 1s ease-in-out;
+}
+.fifth{
+  margin-top: 100px;
+}
+.sixth{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+  background-color: #120136;
+}
+.leftlast{
+  margin-top: 30px;
+  margin-left: 20px;
+  color:white;
+}
+.rightlast{
+  margin-top: 60px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+.sub{
+  background-color: #0aaae9;
+  cursor: pointer;
+  padding: 10px;
+}
+.sub:hover{
+  zoom: 110%;
+  
+}
+.endsection{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #fffdfd;
+}
+.rights{
+  background-color: #dcd5d5;
+  text-align: center;
+}
+.book{
+  background-color: rgb(10, 172, 236);
+  margin-top: 60px;
+  width: 200px;
+  text-align: center;
+  margin-left: 20px;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.facebook{
+  margin-left: 10px;
+}
+.twitter{
+  margin-left: 10px;
+}
+  
